@@ -6,7 +6,6 @@
   color: white;
   background-position: center;
   background-size: cover;
-  user-select: none;
   padding: 0;
   margin: 0;
 }
@@ -21,7 +20,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -38,12 +37,36 @@ header {
   right: 0;
   justify-content: space-between;
   align-items: center;
+  border-bottom: solid 5px rgb(63, 63, 63);
 }
 
 header h1 {
-    margin: 0 2%;
+    margin: 1% 2%;
+    font-family: catchy;
+    font-weight: 100;
+    letter-spacing: .2rem;
+    user-select: none;
+    font-size: 2.5rem;
+}
+
+header a {
+    margin: 1% 2%;
+    font-family: 'Montserrat';
+    position: relative;
+}
+
+header a ::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    /* border-radius: 10px;
+    bottom: 1px;
+    left: -2px;
+    right: -2px;
+    height: 2px; */
 }
 
 .container {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
