@@ -1,0 +1,37 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --oren: #d89348;
+  --gray: #8f919c;
+  --turqo: #b8d7dc;
+  --brow: #713b1d;
+  --merah: #cf2937;
+  --jedacredit: 50ms;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+/* Header */
+header {
+ display: flex;
+ height: 20%;
+ position: fixed;
+ 
+}
